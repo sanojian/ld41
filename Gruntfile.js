@@ -20,6 +20,15 @@ module.exports = function(grunt) {
 			},
 			all: ['js/*.js']
 		},
+    'http-server': {
+      dev: {
+        root: 'public',
+        port: 3117,
+        runInBackground: true
+      }
+    },
+
+
     clean: ['public/'],
     copy: {
       assets: {
@@ -46,6 +55,6 @@ module.exports = function(grunt) {
 		'watch'
 	]);
 	grunt.registerTask('build', ['clean', 'jshint', 'concat', 'copy']);
-	grunt.registerTask('default', ['build', 'dev']);
+	grunt.registerTask('default', ['build','http-server' ,'dev']);
 
 };

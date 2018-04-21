@@ -12,6 +12,7 @@
 		"grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-clean": "*",
     "grunt-contrib-copy": "*",
-		"grunt-contrib-jshint": "~0.7.1"
+		"grunt-contrib-jshint": "~0.7.1",
+"grunt-http-server": "*"
 	}
 }
