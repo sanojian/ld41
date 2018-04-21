@@ -6,5 +6,10 @@ window.g_game = {
 	baseHeight: 480,
 	scale: 3,
 	masterVolume: 0.3,
-	sfx: {}
+	sfx: {},
+   slowMode : false,
+   slowFactor : 0,
+
+
+
 };

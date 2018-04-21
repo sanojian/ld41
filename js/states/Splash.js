@@ -5,6 +5,9 @@ SplashScreen.prototype = {
 		this.load.image('splashBackground', 'assets/gfx/splashBackground.png');
 		this.load.image('background', 'assets/gfx/background.png');
 
+        this.load.image('car', 'assets/gfx/car.png');
+
+
 	},
 	create: function() {
     g_game.spaceKey = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
