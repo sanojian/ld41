@@ -10,7 +10,7 @@ SplashScreen.prototype = {
     g_game.spaceKey = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 
     this.game.add.image(0, 0, 'splashBackground');
-
+   console.log('wild was here');
     console.log('waiting for space...');
   },
   update: function() {
